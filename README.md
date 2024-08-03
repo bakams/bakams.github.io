@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Photography Business</title>
+    <title>Restaurant Name</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,6 +49,23 @@
         .content h2 {
             margin-top: 0;
         }
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item h3 {
+            margin: 0;
+        }
         footer {
             background-color: #333;
             color: #fff;
@@ -63,28 +80,56 @@
 <body>
 
     <header>
-        <h1>My Photography Business</h1>
+        <h1>Restaurant Name</h1>
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
+            <a href="#">Menu</a>
             <a href="#">Contact</a>
         </nav>
     </header>
 
     <div class="hero">
-        <h1>Capture Your Moments</h1>
+        <h1>Welcome to Our Restaurant</h1>
     </div>
 
     <div class="content">
-        <h2>Welcome to My Photography Business</h2>
-        <p>We specialize in capturing your most precious moments with creativity and professionalism. Browse our portfolio to see our work and get in touch for more information.</p>
+        <h2>About Us</h2>
+        <p>Our restaurant offers the finest dishes made from the freshest ingredients. Come enjoy a delightful dining experience with us.</p>
+    </div>
+
+    <div class="content">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Dish Name 1</h3>
+                <p>Description of the dish.</p>
+                <p><strong>$10.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3>Dish Name 2</h3>
+                <p>Description of the dish.</p>
+                <p><strong>$12.00</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3>Dish Name 3</h3>
+                <p>Description of the dish.</p>
+                <p><strong>$15.00</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>1234 Street Name, City, State, 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@restaurant.com</p>
     </div>
 
     <footer>
-        <p>&copy; 2024 My Photography Business. All rights reserved.</p>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
+
